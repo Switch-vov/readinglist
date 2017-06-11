@@ -1,0 +1,13 @@
+# 定制Actuator
+endpoints:
+  shutdown:
+#    id: kill # 修改端点ID
+    enabled: true
+# 启用和禁用端点
+#  metrics:
+#    enabled: true
+#  enabled: false
+
+
+management:
+  context-path: /mgmt # 配置端点基本路径
